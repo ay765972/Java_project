@@ -1,0 +1,92 @@
+<html>
+<title></title>
+<head>
+<style type="text/css">
+body
+{
+background-image:url(./emp.jpg);
+background-size:cover;
+font-family:verdana;
+color:white;
+}
+ul
+{
+margin:0px;
+padding:0px;
+list-style:none; 
+}
+ul li
+{
+float:left;
+width:270px;
+height:40px;
+background-color:black;
+opacity:.5;
+line-height:40px;
+text-align:center;
+font-size:20px;
+}
+ul li a
+{
+text-decoration:none;
+color:white;
+display:block;
+}
+ul li a:hover
+{ 
+background-color:green;
+}
+ul li ul li
+{
+display:none;
+}
+ul li:hover ul li
+{
+display:block;
+}
+pre
+{
+font-size:100px;
+font-align:center;
+font-family: Courier;
+color:rgb(128,128,128);
+}
+div#h
+{
+position:fixed;
+bottom:0px;
+left:0px;
+width:100%;
+height:20px;
+color:white;
+background:#333;
+padding:10px;
+}
+a:visited {
+    color: white;
+    }
+ a:hover {
+    color: red;
+    }   
+</style>
+</head>
+<body>
+<div id="h"><a href="./about.html">@ABOUT</a></div>
+<ul>
+   <li><a href="home.html">HOME</a></li>
+   <li><a href="./login.html">LOGIN</a></li>
+   <li><a href="./register.html">REGISTER</a></li>
+   <li><a>MODIFY</a>
+       <ul>
+           <li><a href="./update.html">UPDATE</a></li>
+           <li><a href="./delete.html">DELETE</a></li>
+           <li><a href="./insert.html">INSERT</a></li>   
+       </ul>
+   </li>
+   <li><a href="./display.html">DISPLAY</a></li>  
+</ul><br><br>
+<pre>       Welcome 
+       
+to our employee portal</pre>
+</body>
+</html>
